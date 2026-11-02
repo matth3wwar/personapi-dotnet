@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\dev\\u\\arquitectura\\personapi-dotnet\\personapi-dotnet\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FF37BA07-5D19-8F93-BE80-9D3100283633}|personapi-dotnet\\personapi-dotnet.csproj|c:\\dev\\u\\arquitectura\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FF37BA07-5D19-8F93-BE80-9D3100283633}|personapi-dotnet\\personapi-dotnet.csproj|solutionrelative:personapi-dotnet\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF37BA07-5D19-8F93-BE80-9D3100283633}|personapi-dotnet\\personapi-dotnet.csproj|c:\\dev\\u\\arquitectura\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\views\\wwwroot\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{FF37BA07-5D19-8F93-BE80-9D3100283633}|personapi-dotnet\\personapi-dotnet.csproj|solutionrelative:personapi-dotnet\\views\\wwwroot\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FF37BA07-5D19-8F93-BE80-9D3100283633}|personapi-dotnet\\personapi-dotnet.csproj|c:\\dev\\u\\arquitectura\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FF37BA07-5D19-8F93-BE80-9D3100283633}|personapi-dotnet\\personapi-dotnet.csproj|solutionrelative:personapi-dotnet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{FF37BA07-5D19-8F93-BE80-9D3100283633}|personapi-dotnet\\personapi-dotnet.csproj|c:\\dev\\u\\arquitectura\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\views\\persona\\_form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{FF37BA07-5D19-8F93-BE80-9D3100283633}|personapi-dotnet\\personapi-dotnet.csproj|solutionrelative:personapi-dotnet\\views\\persona\\_form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF37BA07-5D19-8F93-BE80-9D3100283633}|personapi-dotnet\\personapi-dotnet.csproj|c:\\dev\\u\\arquitectura\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FF37BA07-5D19-8F93-BE80-9D3100283633}|personapi-dotnet\\personapi-dotnet.csproj|solutionrelative:personapi-dotnet\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FF37BA07-5D19-8F93-BE80-9D3100283633}|personapi-dotnet\\personapi-dotnet.csproj|c:\\dev\\u\\arquitectura\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\views\\estudio\\_form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -271,18 +275,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\dev\\u\\arquitectura\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\appsettings.json",
-              "RelativeDocumentMoniker": "personapi-dotnet\\appsettings.json",
-              "ToolTip": "C:\\dev\\u\\arquitectura\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\appsettings.json",
-              "RelativeToolTip": "personapi-dotnet\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-11-02T22:05:09.749Z"
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\dev\\u\\arquitectura\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\Views\\wwwroot\\site.css",
+              "RelativeDocumentMoniker": "personapi-dotnet\\Views\\wwwroot\\site.css",
+              "ToolTip": "C:\\dev\\u\\arquitectura\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\Views\\wwwroot\\site.css",
+              "RelativeToolTip": "personapi-dotnet\\Views\\wwwroot\\site.css",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAgwBUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-11-02T22:19:14.355Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\dev\\u\\arquitectura\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\Views\\Persona\\Create.cshtml",
               "RelativeDocumentMoniker": "personapi-dotnet\\Views\\Persona\\Create.cshtml",
@@ -294,7 +299,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\dev\\u\\arquitectura\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\Views\\Persona\\Delete.cshtml",
               "RelativeDocumentMoniker": "personapi-dotnet\\Views\\Persona\\Delete.cshtml",
@@ -306,7 +311,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "IPersonaRepository.cs",
               "DocumentMoniker": "C:\\dev\\u\\arquitectura\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\DAO\\Interfaces\\IPersonaRepository.cs",
               "RelativeDocumentMoniker": "personapi-dotnet\\DAO\\Interfaces\\IPersonaRepository.cs",
@@ -318,7 +323,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "PersonaRepository.cs",
               "DocumentMoniker": "C:\\dev\\u\\arquitectura\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\DAO\\Repositories\\PersonaRepository.cs",
               "RelativeDocumentMoniker": "personapi-dotnet\\DAO\\Repositories\\PersonaRepository.cs",
@@ -330,7 +335,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "_Form.cshtml.cs",
               "DocumentMoniker": "C:\\dev\\u\\arquitectura\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\Views\\Persona\\_Form.cshtml.cs",
               "RelativeDocumentMoniker": "personapi-dotnet\\Views\\Persona\\_Form.cshtml.cs",
@@ -342,7 +347,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\dev\\u\\arquitectura\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\Views\\Persona\\Details.cshtml",
               "RelativeDocumentMoniker": "personapi-dotnet\\Views\\Persona\\Details.cshtml",
@@ -354,7 +359,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\dev\\u\\arquitectura\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\Views\\Persona\\Index.cshtml",
               "RelativeDocumentMoniker": "personapi-dotnet\\Views\\Persona\\Index.cshtml",
@@ -366,7 +371,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "_Form.cshtml",
               "DocumentMoniker": "C:\\dev\\u\\arquitectura\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\Views\\Estudio\\_Form.cshtml",
               "RelativeDocumentMoniker": "personapi-dotnet\\Views\\Estudio\\_Form.cshtml",
@@ -379,19 +384,44 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\dev\\u\\arquitectura\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "personapi-dotnet\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\dev\\u\\arquitectura\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "personapi-dotnet\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAswDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-02T20:56:44.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\dev\\u\\arquitectura\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\appsettings.json",
+              "RelativeDocumentMoniker": "personapi-dotnet\\appsettings.json",
+              "ToolTip": "C:\\dev\\u\\arquitectura\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\appsettings.json",
+              "RelativeToolTip": "personapi-dotnet\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-11-02T22:05:09.749Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\dev\\u\\arquitectura\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\Program.cs",
               "RelativeDocumentMoniker": "personapi-dotnet\\Program.cs",
               "ToolTip": "C:\\dev\\u\\arquitectura\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\Program.cs",
               "RelativeToolTip": "personapi-dotnet\\Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAswBwAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-02T20:46:40.654Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "_Form.cshtml",
               "DocumentMoniker": "C:\\dev\\u\\arquitectura\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\Views\\Persona\\_Form.cshtml",
               "RelativeDocumentMoniker": "personapi-dotnet\\Views\\Persona\\_Form.cshtml",
@@ -403,19 +433,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\dev\\u\\arquitectura\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "personapi-dotnet\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\dev\\u\\arquitectura\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "personapi-dotnet\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-02T20:56:44.747Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "PersonaController.cs",
               "DocumentMoniker": "C:\\dev\\u\\arquitectura\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\Controllers\\PersonaController.cs",
               "RelativeDocumentMoniker": "personapi-dotnet\\Controllers\\PersonaController.cs",
@@ -427,7 +445,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "TelefonoController.cs",
               "DocumentMoniker": "C:\\dev\\u\\arquitectura\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\Controllers\\TelefonoController.cs",
               "RelativeDocumentMoniker": "personapi-dotnet\\Controllers\\TelefonoController.cs",
@@ -439,7 +457,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "ProfesionController.cs",
               "DocumentMoniker": "C:\\dev\\u\\arquitectura\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\Controllers\\ProfesionController.cs",
               "RelativeDocumentMoniker": "personapi-dotnet\\Controllers\\ProfesionController.cs",
@@ -451,7 +469,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\dev\\u\\arquitectura\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "personapi-dotnet\\Controllers\\HomeController.cs",
@@ -463,7 +481,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "EstudioController.cs",
               "DocumentMoniker": "C:\\dev\\u\\arquitectura\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\Controllers\\EstudioController.cs",
               "RelativeDocumentMoniker": "personapi-dotnet\\Controllers\\EstudioController.cs",
@@ -475,7 +493,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "ProfesionRepository.cs",
               "DocumentMoniker": "C:\\dev\\u\\arquitectura\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\DAO\\Repositories\\ProfesionRepository.cs",
               "RelativeDocumentMoniker": "personapi-dotnet\\DAO\\Repositories\\ProfesionRepository.cs",
@@ -487,7 +505,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "ITelefonoRepository.cs",
               "DocumentMoniker": "C:\\dev\\u\\arquitectura\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\DAO\\Interfaces\\ITelefonoRepository.cs",
               "RelativeDocumentMoniker": "personapi-dotnet\\DAO\\Interfaces\\ITelefonoRepository.cs",
@@ -499,7 +517,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "IProfesionRepository.cs",
               "DocumentMoniker": "C:\\dev\\u\\arquitectura\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\DAO\\Interfaces\\IProfesionRepository.cs",
               "RelativeDocumentMoniker": "personapi-dotnet\\DAO\\Interfaces\\IProfesionRepository.cs",
@@ -511,7 +529,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "IEstudioRepository.cs",
               "DocumentMoniker": "C:\\dev\\u\\arquitectura\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\DAO\\Interfaces\\IEstudioRepository.cs",
               "RelativeDocumentMoniker": "personapi-dotnet\\DAO\\Interfaces\\IEstudioRepository.cs",
@@ -523,7 +541,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "EstudioRepository.cs",
               "DocumentMoniker": "C:\\dev\\u\\arquitectura\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\DAO\\Repositories\\EstudioRepository.cs",
               "RelativeDocumentMoniker": "personapi-dotnet\\DAO\\Repositories\\EstudioRepository.cs",
@@ -535,7 +553,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\dev\\u\\arquitectura\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\Views\\Persona\\Edit.cshtml",
               "RelativeDocumentMoniker": "personapi-dotnet\\Views\\Persona\\Edit.cshtml",
@@ -547,7 +565,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "_Form.cshtml.cs",
               "DocumentMoniker": "C:\\dev\\u\\arquitectura\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\Views\\Profesion\\_Form.cshtml.cs",
               "RelativeDocumentMoniker": "personapi-dotnet\\Views\\Profesion\\_Form.cshtml.cs",
@@ -559,7 +577,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "_Form.cshtml.cs",
               "DocumentMoniker": "C:\\dev\\u\\arquitectura\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\Views\\Telefono\\_Form.cshtml.cs",
               "RelativeDocumentMoniker": "personapi-dotnet\\Views\\Telefono\\_Form.cshtml.cs",
@@ -571,7 +589,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "Persona.cs",
               "DocumentMoniker": "C:\\dev\\u\\arquitectura\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\Models\\Entities\\Persona.cs",
               "RelativeDocumentMoniker": "personapi-dotnet\\Models\\Entities\\Persona.cs",
@@ -583,7 +601,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "Estudio.cs",
               "DocumentMoniker": "C:\\dev\\u\\arquitectura\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\Models\\Entities\\Estudio.cs",
               "RelativeDocumentMoniker": "personapi-dotnet\\Models\\Entities\\Estudio.cs",
@@ -595,7 +613,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "_Form.cshtml.cs",
               "DocumentMoniker": "C:\\dev\\u\\arquitectura\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\Views\\Estudio\\_Form.cshtml.cs",
               "RelativeDocumentMoniker": "personapi-dotnet\\Views\\Estudio\\_Form.cshtml.cs",
@@ -607,7 +625,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "_Form.cshtml",
               "DocumentMoniker": "C:\\dev\\u\\arquitectura\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\Views\\Telefono\\_Form.cshtml",
               "RelativeDocumentMoniker": "personapi-dotnet\\Views\\Telefono\\_Form.cshtml",
@@ -619,7 +637,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "C:\\dev\\u\\arquitectura\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\Views\\Telefono\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "personapi-dotnet\\Views\\Telefono\\Index.cshtml.cs",
@@ -631,7 +649,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "Edit.cshtml.cs",
               "DocumentMoniker": "C:\\dev\\u\\arquitectura\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\Views\\Persona\\Edit.cshtml.cs",
               "RelativeDocumentMoniker": "personapi-dotnet\\Views\\Persona\\Edit.cshtml.cs",
@@ -643,7 +661,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "Create.cshtml.cs",
               "DocumentMoniker": "C:\\dev\\u\\arquitectura\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\Views\\Telefono\\Create.cshtml.cs",
               "RelativeDocumentMoniker": "personapi-dotnet\\Views\\Telefono\\Create.cshtml.cs",
@@ -655,7 +673,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "Details.cshtml.cs",
               "DocumentMoniker": "C:\\dev\\u\\arquitectura\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\Views\\Telefono\\Details.cshtml.cs",
               "RelativeDocumentMoniker": "personapi-dotnet\\Views\\Telefono\\Details.cshtml.cs",
@@ -667,7 +685,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "Edit.cshtml.cs",
               "DocumentMoniker": "C:\\dev\\u\\arquitectura\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\Views\\Telefono\\Edit.cshtml.cs",
               "RelativeDocumentMoniker": "personapi-dotnet\\Views\\Telefono\\Edit.cshtml.cs",
@@ -679,7 +697,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\dev\\u\\arquitectura\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\Views\\Profesion\\Index.cshtml",
               "RelativeDocumentMoniker": "personapi-dotnet\\Views\\Profesion\\Index.cshtml",
@@ -691,7 +709,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "C:\\dev\\u\\arquitectura\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\Views\\Persona\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "personapi-dotnet\\Views\\Persona\\Index.cshtml.cs",
@@ -703,7 +721,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "C:\\dev\\u\\arquitectura\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\Views\\Profesion\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "personapi-dotnet\\Views\\Profesion\\Index.cshtml.cs",
@@ -715,7 +733,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "Details.cshtml.cs",
               "DocumentMoniker": "C:\\dev\\u\\arquitectura\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\Views\\Profesion\\Details.cshtml.cs",
               "RelativeDocumentMoniker": "personapi-dotnet\\Views\\Profesion\\Details.cshtml.cs",
@@ -727,7 +745,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 42,
               "Title": "Create.cshtml.cs",
               "DocumentMoniker": "C:\\dev\\u\\arquitectura\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\Views\\Profesion\\Create.cshtml.cs",
               "RelativeDocumentMoniker": "personapi-dotnet\\Views\\Profesion\\Create.cshtml.cs",
@@ -739,7 +757,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "Delete.cshtml.cs",
               "DocumentMoniker": "C:\\dev\\u\\arquitectura\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\Views\\Telefono\\Delete.cshtml.cs",
               "RelativeDocumentMoniker": "personapi-dotnet\\Views\\Telefono\\Delete.cshtml.cs",
@@ -751,7 +769,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 44,
               "Title": "Details.cshtml.cs",
               "DocumentMoniker": "C:\\dev\\u\\arquitectura\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\Views\\Persona\\Details.cshtml.cs",
               "RelativeDocumentMoniker": "personapi-dotnet\\Views\\Persona\\Details.cshtml.cs",
@@ -763,7 +781,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 45,
               "Title": "Delete.cshtml.cs",
               "DocumentMoniker": "C:\\dev\\u\\arquitectura\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\Views\\Persona\\Delete.cshtml.cs",
               "RelativeDocumentMoniker": "personapi-dotnet\\Views\\Persona\\Delete.cshtml.cs",
@@ -775,7 +793,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 46,
               "Title": "Create.cshtml.cs",
               "DocumentMoniker": "C:\\dev\\u\\arquitectura\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\Views\\Persona\\Create.cshtml.cs",
               "RelativeDocumentMoniker": "personapi-dotnet\\Views\\Persona\\Create.cshtml.cs",
@@ -787,7 +805,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "Edit.cshtml.cs",
               "DocumentMoniker": "C:\\dev\\u\\arquitectura\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\Views\\Profesion\\Edit.cshtml.cs",
               "RelativeDocumentMoniker": "personapi-dotnet\\Views\\Profesion\\Edit.cshtml.cs",
@@ -799,7 +817,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "Delete.cshtml.cs",
               "DocumentMoniker": "C:\\dev\\u\\arquitectura\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\Views\\Profesion\\Delete.cshtml.cs",
               "RelativeDocumentMoniker": "personapi-dotnet\\Views\\Profesion\\Delete.cshtml.cs",
@@ -811,7 +829,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 43,
               "Title": "_Form.cshtml",
               "DocumentMoniker": "C:\\dev\\u\\arquitectura\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\Views\\Profesion\\_Form.cshtml",
               "RelativeDocumentMoniker": "personapi-dotnet\\Views\\Profesion\\_Form.cshtml",
@@ -823,7 +841,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 47,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\dev\\u\\arquitectura\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\Views\\Estudio\\Create.cshtml",
               "RelativeDocumentMoniker": "personapi-dotnet\\Views\\Estudio\\Create.cshtml",
@@ -835,7 +853,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 48,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\dev\\u\\arquitectura\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\Views\\Profesion\\Delete.cshtml",
               "RelativeDocumentMoniker": "personapi-dotnet\\Views\\Profesion\\Delete.cshtml",
@@ -847,7 +865,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 51,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\dev\\u\\arquitectura\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\Views\\Telefono\\Delete.cshtml",
               "RelativeDocumentMoniker": "personapi-dotnet\\Views\\Telefono\\Delete.cshtml",
@@ -859,7 +877,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 52,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\dev\\u\\arquitectura\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\Views\\Telefono\\Create.cshtml",
               "RelativeDocumentMoniker": "personapi-dotnet\\Views\\Telefono\\Create.cshtml",
@@ -871,7 +889,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 49,
               "Title": "Create.cshtml.cs",
               "DocumentMoniker": "C:\\dev\\u\\arquitectura\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\Views\\Estudio\\Create.cshtml.cs",
               "RelativeDocumentMoniker": "personapi-dotnet\\Views\\Estudio\\Create.cshtml.cs",
@@ -883,7 +901,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 50,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\dev\\u\\arquitectura\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\Views\\Telefono\\Details.cshtml",
               "RelativeDocumentMoniker": "personapi-dotnet\\Views\\Telefono\\Details.cshtml",
@@ -895,7 +913,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 55,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\dev\\u\\arquitectura\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\Views\\Telefono\\Index.cshtml",
               "RelativeDocumentMoniker": "personapi-dotnet\\Views\\Telefono\\Index.cshtml",
@@ -907,7 +925,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 54,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\dev\\u\\arquitectura\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\Views\\Telefono\\Edit.cshtml",
               "RelativeDocumentMoniker": "personapi-dotnet\\Views\\Telefono\\Edit.cshtml",
@@ -919,7 +937,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 53,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\dev\\u\\arquitectura\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\Views\\Profesion\\Create.cshtml",
               "RelativeDocumentMoniker": "personapi-dotnet\\Views\\Profesion\\Create.cshtml",
@@ -931,7 +949,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 56,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\dev\\u\\arquitectura\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\Views\\Profesion\\Edit.cshtml",
               "RelativeDocumentMoniker": "personapi-dotnet\\Views\\Profesion\\Edit.cshtml",
@@ -943,7 +961,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 57,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\dev\\u\\arquitectura\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\Views\\Profesion\\Details.cshtml",
               "RelativeDocumentMoniker": "personapi-dotnet\\Views\\Profesion\\Details.cshtml",
@@ -955,7 +973,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 58,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\dev\\u\\arquitectura\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\Views\\Estudio\\Index.cshtml",
               "RelativeDocumentMoniker": "personapi-dotnet\\Views\\Estudio\\Index.cshtml",
@@ -967,7 +985,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 59,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\dev\\u\\arquitectura\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\Views\\Estudio\\Edit.cshtml",
               "RelativeDocumentMoniker": "personapi-dotnet\\Views\\Estudio\\Edit.cshtml",
@@ -979,7 +997,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 60,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\dev\\u\\arquitectura\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\Views\\Estudio\\Details.cshtml",
               "RelativeDocumentMoniker": "personapi-dotnet\\Views\\Estudio\\Details.cshtml",
@@ -991,7 +1009,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 61,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\dev\\u\\arquitectura\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\Views\\Estudio\\Delete.cshtml",
               "RelativeDocumentMoniker": "personapi-dotnet\\Views\\Estudio\\Delete.cshtml",
@@ -1003,7 +1021,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 62,
               "Title": "TelefonoRepository.cs",
               "DocumentMoniker": "C:\\dev\\u\\arquitectura\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\DAO\\Repositories\\TelefonoRepository.cs",
               "RelativeDocumentMoniker": "personapi-dotnet\\DAO\\Repositories\\TelefonoRepository.cs",
@@ -1015,7 +1033,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 64,
               "Title": "PersonaController",
               "DocumentMoniker": "C:\\dev\\u\\arquitectura\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\Controllers\\PersonaController",
               "RelativeDocumentMoniker": "personapi-dotnet\\Controllers\\PersonaController",
@@ -1027,7 +1045,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 63,
               "Title": "PersonaDbContext.cs",
               "DocumentMoniker": "C:\\dev\\u\\arquitectura\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\Models\\Entities\\PersonaDbContext.cs",
               "RelativeDocumentMoniker": "personapi-dotnet\\Models\\Entities\\PersonaDbContext.cs",
