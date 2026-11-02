@@ -31,28 +31,28 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 10.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/dev/u/arquitectura/personapi-dotnet/personapi-dotnet/personapi-dotnet/Views/Estudios/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0dWRpb3NcQ3JlYXRlLmNzaHRtbA==
+[C:/dev/u/arquitectura/personapi-dotnet/personapi-dotnet/personapi-dotnet/Views/Estudio/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0dWRpb1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/dev/u/arquitectura/personapi-dotnet/personapi-dotnet/personapi-dotnet/Views/Estudios/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0dWRpb3NcRGVsZXRlLmNzaHRtbA==
+[C:/dev/u/arquitectura/personapi-dotnet/personapi-dotnet/personapi-dotnet/Views/Estudio/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0dWRpb1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/dev/u/arquitectura/personapi-dotnet/personapi-dotnet/personapi-dotnet/Views/Estudios/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0dWRpb3NcRGV0YWlscy5jc2h0bWw=
+[C:/dev/u/arquitectura/personapi-dotnet/personapi-dotnet/personapi-dotnet/Views/Estudio/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0dWRpb1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/dev/u/arquitectura/personapi-dotnet/personapi-dotnet/personapi-dotnet/Views/Estudios/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0dWRpb3NcRWRpdC5jc2h0bWw=
+[C:/dev/u/arquitectura/personapi-dotnet/personapi-dotnet/personapi-dotnet/Views/Estudio/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0dWRpb1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/dev/u/arquitectura/personapi-dotnet/personapi-dotnet/personapi-dotnet/Views/Estudios/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0dWRpb3NcSW5kZXguY3NodG1s
+[C:/dev/u/arquitectura/personapi-dotnet/personapi-dotnet/personapi-dotnet/Views/Estudio/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0dWRpb1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/dev/u/arquitectura/personapi-dotnet/personapi-dotnet/personapi-dotnet/Views/Estudios/_Form.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0dWRpb3NcX0Zvcm0uY3NodG1s
+[C:/dev/u/arquitectura/personapi-dotnet/personapi-dotnet/personapi-dotnet/Views/Estudio/_Form.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0dWRpb1xfRm9ybS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/dev/u/arquitectura/personapi-dotnet/personapi-dotnet/personapi-dotnet/Views/Home/Index.cshtml]
