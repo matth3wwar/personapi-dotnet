@@ -18,7 +18,7 @@ namespace personapi_dotnet.DAO.Repositories
             return await _context.Estudios.ToListAsync();
         }
 
-        public async Task<Estudio?> GetById(string cc)
+        public async Task<Estudio?> GetById(int idProf, string cc)
         {
             return await _context.Estudios.FindAsync(cc);
         }
@@ -35,9 +35,9 @@ namespace personapi_dotnet.DAO.Repositories
             await _context.SaveChangesAsync();
         }
 
-        public async Task Delete(string cc)
+        public async Task Delete(int idProf, string cc)
         {
-            var persona = await GetById(cc);
+            var persona = await GetById(idProf, cc);
 
             if (persona != null)
             {

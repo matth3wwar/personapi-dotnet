@@ -1,0 +1,22 @@
+﻿@model personapi_dotnet.Models.Entities.Estudio
+<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+<div class="mb-3"><label asp-for="IdProf" class="form-label">Profesión</label>
+    <select asp-for="IdProf" asp-items="ViewBag.Profesiones" class="form-select">
+        <option value="">Seleccione una profesión</option></select>
+        <span asp-validation-for="IdProf" class="text-danger"></span>
+    </div>
+<div class="mb-3">
+    <label asp-for="CcPer" class="form-label">Persona</label>
+    <select asp-for="CcPer" asp-items="ViewBag.Personas" class="form-select">
+        <option value="">Seleccione una persona</option></select>
+        <span asp-validation-for="CcPer" class="text-danger"></span>
+    </div>
+<div class="mb-3"><label asp-for="Fecha" class="form-label">Fecha</label>
+    <input asp-for="Fecha" type="date" class="form-control" />
+    <span asp-validation-for="Fecha" class="text-danger"></span>
+</div>
+<div class="mb-3">
+    <label asp-for="Univer" class="form-label">Universidad</label>
+    <input asp-for="Univer" class="form-control" />
+    <span asp-validation-for="Univer" class="text-danger"></span>
+</div>

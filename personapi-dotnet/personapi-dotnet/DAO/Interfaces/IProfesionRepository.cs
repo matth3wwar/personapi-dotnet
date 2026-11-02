@@ -6,12 +6,12 @@ namespace personapi_dotnet.DAO.Interfaces
     {
         Task<IEnumerable<Profesion>> GetAll();
 
-        Task<Profesion?> GetById(string cc);
+        Task<Profesion?> GetById(int id);
 
         Task Add(Profesion profesion);
 
         Task Update(Profesion profesion);
 
-        Task Delete(string cc);
+        Task Delete(int id);
     }
 }

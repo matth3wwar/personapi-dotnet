@@ -1,0 +1,6 @@
+﻿@model personapi_dotnet.Models.Entities.Persona
+@{
+    ViewData["Title"] = "Crear persona";
+}
+<h1>Crear persona</h1>
+<form asp-action="Create" method="post"><partial name="_Form" model="Model" /><button class="btn btn-primary" type="submit">Guardar</button> <a asp-action="Index" class="btn btn-secondary">Volver</a></form>

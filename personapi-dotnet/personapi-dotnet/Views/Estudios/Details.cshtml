@@ -1,0 +1,17 @@
+﻿@model personapi_dotnet.Models.Entities.Estudio
+@{
+    ViewData["Title"] = "Detalle de estudio";
+}
+<h1>Detalle de estudio</h1>
+<dl class="row">
+    <dt class="col-sm-3">ID profesión</dt>
+    <dd class="col-sm-9">@Model.IdProf</dd>
+    <dt class="col-sm-3">CC persona</dt>
+    <dd class="col-sm-9">@Model.CcPer</dd>
+    <dt class="col-sm-3">Fecha</dt>
+    <dd class="col-sm-9">@Model.Fecha</dd>
+    <dt class="col-sm-3">Universidad</dt>
+    <dd class="col-sm-9">@Model.Univer</dd>
+</dl>
+<a asp-action="Edit" asp-route-idProf="@Model.IdProf" asp-route-ccPer="@Model.CcPer" class="btn btn-primary">Editar</a>
+<a asp-action="Index" class="btn btn-secondary">Volver</a>

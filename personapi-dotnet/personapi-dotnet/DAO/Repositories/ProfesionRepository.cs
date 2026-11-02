@@ -18,9 +18,9 @@ namespace personapi_dotnet.DAO.Repositories
             return await _context.Profesions.ToListAsync();
         }
 
-        public async Task<Profesion?> GetById(string cc)
+        public async Task<Profesion?> GetById(int id)
         {
-            return await _context.Profesions.FindAsync(cc);
+            return await _context.Profesions.FindAsync(id);
         }
 
         public async Task Add(Profesion persona)
@@ -35,9 +35,9 @@ namespace personapi_dotnet.DAO.Repositories
             await _context.SaveChangesAsync();
         }
 
-        public async Task Delete(string cc)
+        public async Task Delete(int id)
         {
-            var persona = await GetById(cc);
+            var persona = await GetById(id);
 
             if (persona != null)
             {
