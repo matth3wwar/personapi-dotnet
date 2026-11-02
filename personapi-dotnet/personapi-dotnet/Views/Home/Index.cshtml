@@ -1,8 +1,68 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Inicio";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="text-center py-4">
+    <h1 class="display-5 fw-bold">PersonAPI</h1>
+    <p class="lead text-muted">Selecciona un módulo para consultar o administrar la información.</p>
+</div>
+
+<div class="row row-cols-1 row-cols-md-2 g-4 home-menu">
+
+    <div class="col">
+        <div class="card h-100 shadow-sm">
+            <div class="card-body">
+                <div class="home-icon" aria-hidden="true">👤</div>
+                <h5 class="card-title">Personas</h5>
+                <p class="card-text text-muted">Registro de personas: identificación, nombre, apellido, género y edad.</p>
+            </div>
+            <div class="card-footer bg-white border-0 pb-3">
+                <a asp-controller="Persona" asp-action="Index" class="btn btn-primary">Ver listado</a>
+                <a asp-controller="Persona" asp-action="Create" class="btn btn-outline-primary">Registrar</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col">
+        <div class="card h-100 shadow-sm">
+            <div class="card-body">
+                <div class="home-icon" aria-hidden="true">📞</div>
+                <h5 class="card-title">Teléfonos</h5>
+                <p class="card-text text-muted">Números telefónicos, operador y la persona dueña de cada línea.</p>
+            </div>
+            <div class="card-footer bg-white border-0 pb-3">
+                <a asp-controller="Telefono" asp-action="Index" class="btn btn-primary">Ver listado</a>
+                <a asp-controller="Telefono" asp-action="Create" class="btn btn-outline-primary">Registrar</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col">
+        <div class="card h-100 shadow-sm">
+            <div class="card-body">
+                <div class="home-icon" aria-hidden="true">💼</div>
+                <h5 class="card-title">Profesiones</h5>
+                <p class="card-text text-muted">Catálogo de profesiones con su nombre y descripción.</p>
+            </div>
+            <div class="card-footer bg-white border-0 pb-3">
+                <a asp-controller="Profesion" asp-action="Index" class="btn btn-primary">Ver listado</a>
+                <a asp-controller="Profesion" asp-action="Create" class="btn btn-outline-primary">Registrar</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col">
+        <div class="card h-100 shadow-sm">
+            <div class="card-body">
+                <div class="home-icon" aria-hidden="true">🎓</div>
+                <h5 class="card-title">Estudios</h5>
+                <p class="card-text text-muted">Relación entre personas y profesiones: fecha de grado y universidad.</p>
+            </div>
+            <div class="card-footer bg-white border-0 pb-3">
+                <a asp-controller="Estudio" asp-action="Index" class="btn btn-primary">Ver listado</a>
+                <a asp-controller="Estudio" asp-action="Create" class="btn btn-outline-primary">Registrar</a>
+            </div>
+        </div>
+    </div>
+
 </div>

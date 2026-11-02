@@ -1,8 +1,3 @@
-using Microsoft.EntityFrameworkCore;
-using personapi_dotnet.DAO.Interfaces;
-using personapi_dotnet.DAO.Repositories;
-using personapi_dotnet.Models.Entities;
-
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -23,15 +18,7 @@ app.MapStaticAssets();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Persona}/{action=Index}/{id?}")
+    pattern: "{controller=Home}/{action=Index}/{id?}")
     .WithStaticAssets();
 
 app.Run();
-
-builder.Services.AddDbContext<PersonaDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("PersonaDb")));
-
-builder.Services.AddScoped<IPersonaRepository, PersonaRepository>();
-builder.Services.AddScoped<ITelefonoRepository, TelefonoRepository>();
-builder.Services.AddScoped<IProfesionRepository, ProfesionRepository>();
-builder.Services.AddScoped<IEstudioRepository, EstudioRepository>();
