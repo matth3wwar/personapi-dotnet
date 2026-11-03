@@ -1,4 +1,3 @@
-wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
@@ -61,7 +60,7 @@ wwwroot\lib\jquery\dist\jquery.slim.js
 wwwroot\lib\jquery\dist\jquery.slim.min.js
 wwwroot\lib\jquery\dist\jquery.slim.min.map
 wwwroot\lib\jquery\LICENSE.txt
-C:\dev\u\arquitectura\personapi-dotnet\personapi-dotnet\personapi-dotnet\wwwroot\css\site.css
+wwwroot\css\site.css
 C:\dev\u\arquitectura\personapi-dotnet\personapi-dotnet\personapi-dotnet\wwwroot\favicon.ico
 C:\dev\u\arquitectura\personapi-dotnet\personapi-dotnet\personapi-dotnet\wwwroot\js\site.js
 C:\dev\u\arquitectura\personapi-dotnet\personapi-dotnet\personapi-dotnet\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
@@ -123,3 +122,4 @@ C:\dev\u\arquitectura\personapi-dotnet\personapi-dotnet\personapi-dotnet\wwwroot
 C:\dev\u\arquitectura\personapi-dotnet\personapi-dotnet\personapi-dotnet\wwwroot\lib\jquery\dist\jquery.slim.min.js
 C:\dev\u\arquitectura\personapi-dotnet\personapi-dotnet\personapi-dotnet\wwwroot\lib\jquery\dist\jquery.slim.min.map
 C:\dev\u\arquitectura\personapi-dotnet\personapi-dotnet\personapi-dotnet\wwwroot\lib\jquery\LICENSE.txt
+C:\dev\u\arquitectura\personapi-dotnet\personapi-dotnet\personapi-dotnet\wwwroot\css\site.css
