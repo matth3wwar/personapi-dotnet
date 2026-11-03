@@ -1,4 +1,8 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+wwwroot\css\site.css
+>>>>>>> parent of 8fd7030 (pruebas swagger automaticas)
 =======
 wwwroot\css\site.css
 >>>>>>> parent of 8fd7030 (pruebas swagger automaticas)
@@ -65,6 +69,7 @@ wwwroot\lib\jquery\dist\jquery.slim.min.js
 wwwroot\lib\jquery\dist\jquery.slim.min.map
 wwwroot\lib\jquery\LICENSE.txt
 <<<<<<< HEAD
+<<<<<<< HEAD
 wwwroot\css\site.css
 C:\dev\u\arquitectura\personapi-dotnet\personapi-dotnet\personapi-dotnet\wwwroot\favicon.ico
 C:\dev\u\arquitectura\personapi-dotnet\personapi-dotnet\personapi-dotnet\wwwroot\js\site.js
@@ -129,6 +134,8 @@ C:\dev\u\arquitectura\personapi-dotnet\personapi-dotnet\personapi-dotnet\wwwroot
 C:\dev\u\arquitectura\personapi-dotnet\personapi-dotnet\personapi-dotnet\wwwroot\lib\jquery\LICENSE.txt
 C:\dev\u\arquitectura\personapi-dotnet\personapi-dotnet\personapi-dotnet\wwwroot\css\site.css
 =======
+=======
+>>>>>>> parent of 8fd7030 (pruebas swagger automaticas)
 C:\Users\User\source\repos\personapi-dotnet\personapi-dotnet\personapi-dotnet\wwwroot\lib\jquery\LICENSE.txt
 C:\Users\User\source\repos\personapi-dotnet\personapi-dotnet\personapi-dotnet\wwwroot\lib\jquery\dist\jquery.slim.min.map
 C:\Users\User\source\repos\personapi-dotnet\personapi-dotnet\personapi-dotnet\wwwroot\lib\jquery\dist\jquery.slim.min.js
@@ -191,4 +198,7 @@ C:\Users\User\source\repos\personapi-dotnet\personapi-dotnet\personapi-dotnet\ww
 C:\Users\User\source\repos\personapi-dotnet\personapi-dotnet\personapi-dotnet\wwwroot\js\site.js
 C:\Users\User\source\repos\personapi-dotnet\personapi-dotnet\personapi-dotnet\wwwroot\favicon.ico
 C:\Users\User\source\repos\personapi-dotnet\personapi-dotnet\personapi-dotnet\wwwroot\css\site.css
+<<<<<<< HEAD
+>>>>>>> parent of 8fd7030 (pruebas swagger automaticas)
+=======
 >>>>>>> parent of 8fd7030 (pruebas swagger automaticas)

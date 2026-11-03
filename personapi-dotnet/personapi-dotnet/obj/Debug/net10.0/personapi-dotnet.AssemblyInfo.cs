@@ -15,7 +15,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 <<<<<<< HEAD
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+feeaf8a7ae055cd0e11b258e678f18ac9bacb849")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+776616bd15510d05c5f38495232db9123e2aeaad")]
+>>>>>>> parent of 8fd7030 (pruebas swagger automaticas)
 =======
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+776616bd15510d05c5f38495232db9123e2aeaad")]
 >>>>>>> parent of 8fd7030 (pruebas swagger automaticas)
