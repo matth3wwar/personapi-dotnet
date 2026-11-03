@@ -1,5 +1,9 @@
 ﻿@model personapi_dotnet.Models.Entities.Telefono
 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-<div class="mb-3"><label asp-for="Num" class="form-label">Número</label><input asp-for="Num" class="form-control" /><span asp-validation-for="Num" class="text-danger"></span></div>
-<div class="mb-3"><label asp-for="Oper" class="form-label">Operador</label><input asp-for="Oper" class="form-control" /><span asp-validation-for="Oper" class="text-danger"></span></div>
+@* El número solo se escribe al crear; en edición no se puede cambiar *@
+@if (ViewData["EsEdicion"] == null)
+{
+    <div class="mb-3"><label asp-for="Num" class="form-label">Número</label><input asp-for="Num" inputmode="numeric" maxlength="15" class="form-control" /><span asp-validation-for="Num" class="text-danger"></span></div>
+}
+<div class="mb-3"><label asp-for="Oper" class="form-label">Operador</label><input asp-for="Oper" maxlength="45" class="form-control" /><span asp-validation-for="Oper" class="text-danger"></span></div>
 <div class="mb-3"><label asp-for="Dueno" class="form-label">Persona propietaria</label><select asp-for="Dueno" asp-items="ViewBag.Personas" class="form-select"><option value="">Seleccione una persona</option></select><span asp-validation-for="Dueno" class="text-danger"></span></div>

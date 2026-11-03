@@ -1,6 +1,10 @@
 ﻿@model personapi_dotnet.Models.Entities.Profesion
 @{
-    ViewData["Title"] = "Eliminar profesión";
+    ViewData["Title"] = "Registrar profesión";
 }
-<h1>Eliminar profesión</h1><p>¿Confirma que desea eliminar la profesión <strong>@Model.Nom</strong>?</p><p>La eliminación puede fallar si existen registros de estudios asociados.</p>
-<form asp-action="Delete" asp-route-id="@Model.Id" method="post"><button type="submit" class="btn btn-danger">Confirmar eliminación</button> <a asp-action="Index" class="btn btn-secondary">Cancelar</a></form>
+<h1>Registrar profesión</h1>
+<form asp-action="Create" method="post">
+    <partial name="_Form" model="Model" />
+    <button class="btn btn-primary" type="submit">Guardar</button>
+    <a asp-action="Index" class="btn btn-secondary">Volver</a>
+</form>

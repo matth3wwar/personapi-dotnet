@@ -4,7 +4,7 @@
 }
 <h1>Eliminar persona</h1>
 <p>¿Confirma que desea eliminar a <strong>@Model.Nombre @Model.Apellido</strong>?</p>
-<p>La operación puede estar restringida si la persona tiene teléfonos o estudios asociados.</p>
+<p>También se eliminarán sus teléfonos y estudios asociados.</p>
 <form asp-action="Delete" asp-route-id="@Model.Cc" method="post">
     <button type="submit" class="btn btn-danger">Confirmar eliminación</button> 
     <a asp-action="Index" class="btn btn-secondary">Cancelar</a>

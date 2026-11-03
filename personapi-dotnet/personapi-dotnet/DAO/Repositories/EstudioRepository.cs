@@ -20,7 +20,8 @@ namespace personapi_dotnet.DAO.Repositories
 
         public async Task<Estudio?> GetById(int idProf, string cc)
         {
-            return await _context.Estudios.FindAsync(cc);
+            // La clave es compuesta: (id_prof, cc_per)
+            return await _context.Estudios.FindAsync(idProf, cc);
         }
 
         public async Task Add(Estudio persona)

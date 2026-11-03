@@ -37,10 +37,16 @@ namespace personapi_dotnet.DAO.Repositories
 
         public async Task Delete(string cc)
         {
-            var persona = await GetById(cc);
+            // Se cargan también sus teléfonos y estudios para borrarlos junto con la persona
+            var persona = await _context.Personas
+                .Include(p => p.Telefonos)
+                .Include(p => p.Estudios)
+                .FirstOrDefaultAsync(p => p.Cc == cc);
 
             if (persona != null)
             {
+                _context.Telefonos.RemoveRange(persona.Telefonos);
+                _context.Estudios.RemoveRange(persona.Estudios);
                 _context.Personas.Remove(persona);
                 await _context.SaveChangesAsync();
             }

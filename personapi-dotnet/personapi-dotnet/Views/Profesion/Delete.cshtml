@@ -2,5 +2,5 @@
 @{
     ViewData["Title"] = "Eliminar profesión";
 }
-<h1>Eliminar profesión</h1><p>¿Confirma que desea eliminar la profesión <strong>@Model.Nom</strong>?</p><p>La eliminación puede fallar si existen registros de estudios asociados.</p>
+<h1>Eliminar profesión</h1><p>¿Confirma que desea eliminar la profesión <strong>@Model.Nom</strong>?</p><p>También se eliminarán los estudios asociados a esta profesión.</p>
 <form asp-action="Delete" asp-route-id="@Model.Id" method="post"><button type="submit" class="btn btn-danger">Confirmar eliminación</button> <a asp-action="Index" class="btn btn-secondary">Cancelar</a></form>
