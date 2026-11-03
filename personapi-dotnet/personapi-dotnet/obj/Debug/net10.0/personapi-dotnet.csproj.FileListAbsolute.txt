@@ -165,6 +165,7 @@ C:\dev\u\arquitectura\personapi-dotnet\personapi-dotnet\personapi-dotnet\obj\Deb
 C:\dev\u\arquitectura\personapi-dotnet\personapi-dotnet\personapi-dotnet\obj\Debug\net10.0\scopedcss\projectbundle\personapi-dotnet.bundle.scp.css
 C:\dev\u\arquitectura\personapi-dotnet\personapi-dotnet\personapi-dotnet\obj\Debug\net10.0\compressed\qzeas9dcal-{0}-s9y91u5nkn-s9y91u5nkn.gz
 C:\dev\u\arquitectura\personapi-dotnet\personapi-dotnet\personapi-dotnet\obj\Debug\net10.0\compressed\47k9iozzxc-{0}-s1w16h17zk-s1w16h17zk.gz
+C:\dev\u\arquitectura\personapi-dotnet\personapi-dotnet\personapi-dotnet\obj\Debug\net10.0\compressed\iu16toxt0j-{0}-b9sayid5wm-b9sayid5wm.gz
 C:\dev\u\arquitectura\personapi-dotnet\personapi-dotnet\personapi-dotnet\obj\Debug\net10.0\compressed\41u7zsg1da-{0}-61n19gt1b8-61n19gt1b8.gz
 C:\dev\u\arquitectura\personapi-dotnet\personapi-dotnet\personapi-dotnet\obj\Debug\net10.0\compressed\s4kvyb96uv-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
 C:\dev\u\arquitectura\personapi-dotnet\personapi-dotnet\personapi-dotnet\obj\Debug\net10.0\compressed\vjqtmpvn7e-{0}-bqjiyaj88i-bqjiyaj88i.gz
@@ -242,9 +243,6 @@ C:\dev\u\arquitectura\personapi-dotnet\personapi-dotnet\personapi-dotnet\obj\Deb
 C:\dev\u\arquitectura\personapi-dotnet\personapi-dotnet\personapi-dotnet\obj\Debug\net10.0\personapi-dotnet.pdb
 C:\dev\u\arquitectura\personapi-dotnet\personapi-dotnet\personapi-dotnet\obj\Debug\net10.0\personapi-dotnet.genruntimeconfig.cache
 C:\dev\u\arquitectura\personapi-dotnet\personapi-dotnet\personapi-dotnet\obj\Debug\net10.0\ref\personapi-dotnet.dll
-<<<<<<< HEAD
-C:\dev\u\arquitectura\personapi-dotnet\personapi-dotnet\personapi-dotnet\obj\Debug\net10.0\compressed\iu16toxt0j-{0}-cnvdm2jy3j-cnvdm2jy3j.gz
-=======
 C:\Users\User\source\repos\personapi-dotnet\personapi-dotnet\personapi-dotnet\bin\Debug\net10.0\appsettings.Development.json
 C:\Users\User\source\repos\personapi-dotnet\personapi-dotnet\personapi-dotnet\bin\Debug\net10.0\appsettings.json
 C:\Users\User\source\repos\personapi-dotnet\personapi-dotnet\personapi-dotnet\bin\Debug\net10.0\personapi-dotnet.staticwebassets.runtime.json
@@ -491,8 +489,6 @@ C:\Users\User\AppData\Local\Temp\claude\C--Users-User-source-repos-personapi-dot
 C:\Users\User\AppData\Local\Temp\claude\C--Users-User-source-repos-personapi-dotnet\3991a4a3-3ce2-4b26-8ddc-13e93feaf6bf\scratchpad\build\personapi-dotnet.runtimeconfig.json
 C:\Users\User\AppData\Local\Temp\claude\C--Users-User-source-repos-personapi-dotnet\3991a4a3-3ce2-4b26-8ddc-13e93feaf6bf\scratchpad\build\personapi-dotnet.dll
 C:\Users\User\AppData\Local\Temp\claude\C--Users-User-source-repos-personapi-dotnet\3991a4a3-3ce2-4b26-8ddc-13e93feaf6bf\scratchpad\build\personapi-dotnet.pdb
-<<<<<<< HEAD
-<<<<<<< HEAD
 C:\Users\User\AppData\Local\Temp\claude\b0f24a8dc267b92b\3991a4a3-3ce2-4b26-8ddc-13e93feaf6bf\scratchpad\build\appsettings.Development.json
 C:\Users\User\AppData\Local\Temp\claude\b0f24a8dc267b92b\3991a4a3-3ce2-4b26-8ddc-13e93feaf6bf\scratchpad\build\appsettings.json
 C:\Users\User\AppData\Local\Temp\claude\b0f24a8dc267b92b\3991a4a3-3ce2-4b26-8ddc-13e93feaf6bf\scratchpad\build\personapi-dotnet.staticwebassets.runtime.json
@@ -502,10 +498,3 @@ C:\Users\User\AppData\Local\Temp\claude\b0f24a8dc267b92b\3991a4a3-3ce2-4b26-8ddc
 C:\Users\User\AppData\Local\Temp\claude\b0f24a8dc267b92b\3991a4a3-3ce2-4b26-8ddc-13e93feaf6bf\scratchpad\build\personapi-dotnet.runtimeconfig.json
 C:\Users\User\AppData\Local\Temp\claude\b0f24a8dc267b92b\3991a4a3-3ce2-4b26-8ddc-13e93feaf6bf\scratchpad\build\personapi-dotnet.dll
 C:\Users\User\AppData\Local\Temp\claude\b0f24a8dc267b92b\3991a4a3-3ce2-4b26-8ddc-13e93feaf6bf\scratchpad\build\personapi-dotnet.pdb
->>>>>>> 8fd7030a67199a548a68beebad3398575b2845c9
-=======
-C:\Users\User\source\repos\personapi-dotnet\personapi-dotnet\personapi-dotnet\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
->>>>>>> parent of 8fd7030 (pruebas swagger automaticas)
-=======
-C:\Users\User\source\repos\personapi-dotnet\personapi-dotnet\personapi-dotnet\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
->>>>>>> parent of 8fd7030 (pruebas swagger automaticas)
