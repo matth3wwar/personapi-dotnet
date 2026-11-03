@@ -1,0 +1,2 @@
+# Los scripts de bash deben tener saltos de línea Linux (LF) para correr en WSL y Docker
+*.sh text eol=lf

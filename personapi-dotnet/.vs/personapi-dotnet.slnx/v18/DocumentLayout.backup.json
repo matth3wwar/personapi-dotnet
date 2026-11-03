@@ -291,7 +291,7 @@
               "RelativeDocumentMoniker": "personapi-dotnet\\DAO\\Repositories\\PersonaRepository.cs",
               "ToolTip": "C:\\Users\\User\\source\\repos\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\DAO\\Repositories\\PersonaRepository.cs",
               "RelativeToolTip": "personapi-dotnet\\DAO\\Repositories\\PersonaRepository.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAkwBwAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAkwBEAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-31T18:03:53.832Z",
               "EditorCaption": ""
@@ -306,8 +306,7 @@
               "RelativeToolTip": "personapi-dotnet\\Views\\Persona\\_Form.cshtml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-02T21:00:06.654Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-02T21:00:06.654Z"
             },
             {
               "$type": "Document",
@@ -319,8 +318,7 @@
               "RelativeToolTip": "personapi-dotnet\\Views\\Persona\\Details.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-02T20:37:05.268Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-02T20:37:05.268Z"
             },
             {
               "$type": "Document",
@@ -368,8 +366,7 @@
               "RelativeToolTip": "personapi-dotnet\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-02T20:46:40.654Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-02T20:46:40.654Z"
             },
             {
               "$type": "Document",
@@ -381,8 +378,7 @@
               "RelativeToolTip": "personapi-dotnet\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-11-02T22:05:09.749Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-02T22:05:09.749Z"
             },
             {
               "$type": "Document",
@@ -394,8 +390,7 @@
               "RelativeToolTip": "personapi-dotnet\\Views\\Profesion\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-02T20:38:01.199Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-02T20:38:01.199Z"
             },
             {
               "$type": "Document",

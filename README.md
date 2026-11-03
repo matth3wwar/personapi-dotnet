@@ -60,5 +60,16 @@ cd personapi-dotnet/personapi-dotnet
 dotnet run
 ```
 
+---
+
+## Probar la API con curl
+
+Con la app corriendo, en **Git Bash** o **WSL** desde la raíz del repo (en WSL el script usa el `curl.exe` de Windows, porque el `localhost` de WSL no llega a la app):
+```bash
+./pruebas-api.sh                         # Visual Studio (http://localhost:5108)
+./pruebas-api.sh http://localhost:8080   # Docker
+```
+Prueba crear, consultar, editar y borrar cada recurso, los errores de validación (400), duplicados (409), no encontrados (404) y el borrado en cascada. Al final muestra cuántas pruebas pasaron y no deja datos en la base.
+
 ### Error común
 `Cannot open database "persona_db" requested by the login` → la base no existe todavía; ejecutar el paso 2.
