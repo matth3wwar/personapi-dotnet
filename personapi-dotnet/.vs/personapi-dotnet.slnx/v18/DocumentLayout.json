@@ -466,7 +466,11 @@
               "RelativeDocumentMoniker": "personapi-dotnet\\DAO\\Repositories\\PersonaRepository.cs",
               "ToolTip": "C:\\dev\\u\\arquitectura\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\DAO\\Repositories\\PersonaRepository.cs",
               "RelativeToolTip": "personapi-dotnet\\DAO\\Repositories\\PersonaRepository.cs",
+<<<<<<< HEAD
               "ViewState": "AgIAABEAAAAAAAAAAAAwwCUAAAArAAAAAAAAAA==",
+=======
+              "ViewState": "AgIAABAAAAAAAAAAAAAkwBwAAAAMAAAAAAAAAA==",
+>>>>>>> parent of 8fd7030 (pruebas swagger automaticas)
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-31T18:03:53.832Z",
               "EditorCaption": ""
@@ -481,12 +485,108 @@
               "RelativeToolTip": "personapi-dotnet\\DAO\\Interfaces\\IPersonaRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+<<<<<<< HEAD
               "WhenOpened": "2026-10-31T16:58:27.082Z",
+=======
+              "WhenOpened": "2026-11-02T21:00:06.654Z",
+>>>>>>> parent of 8fd7030 (pruebas swagger automaticas)
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 16,
+=======
+              "DocumentIndex": 3,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\Views\\Persona\\Details.cshtml",
+              "RelativeDocumentMoniker": "personapi-dotnet\\Views\\Persona\\Details.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\Views\\Persona\\Details.cshtml",
+              "RelativeToolTip": "personapi-dotnet\\Views\\Persona\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-02T20:37:05.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\Views\\Persona\\Index.cshtml",
+              "RelativeDocumentMoniker": "personapi-dotnet\\Views\\Persona\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\Views\\Persona\\Index.cshtml",
+              "RelativeToolTip": "personapi-dotnet\\Views\\Persona\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-02T20:40:56.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Form.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\Views\\Estudio\\_Form.cshtml",
+              "RelativeDocumentMoniker": "personapi-dotnet\\Views\\Estudio\\_Form.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\Views\\Estudio\\_Form.cshtml",
+              "RelativeToolTip": "personapi-dotnet\\Views\\Estudio\\_Form.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-02T20:21:10.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "personapi-dotnet\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "personapi-dotnet\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAswDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-02T20:56:44.747Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\Program.cs",
+              "RelativeDocumentMoniker": "personapi-dotnet\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\Program.cs",
+              "RelativeToolTip": "personapi-dotnet\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-02T20:46:40.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\appsettings.json",
+              "RelativeDocumentMoniker": "personapi-dotnet\\appsettings.json",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\appsettings.json",
+              "RelativeToolTip": "personapi-dotnet\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-11-02T22:05:09.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\Views\\Profesion\\Create.cshtml",
+              "RelativeDocumentMoniker": "personapi-dotnet\\Views\\Profesion\\Create.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\Views\\Profesion\\Create.cshtml",
+              "RelativeToolTip": "personapi-dotnet\\Views\\Profesion\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-02T20:38:01.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+>>>>>>> parent of 8fd7030 (pruebas swagger automaticas)
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\dev\\u\\arquitectura\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\Views\\Persona\\Delete.cshtml",
               "RelativeDocumentMoniker": "personapi-dotnet\\Views\\Persona\\Delete.cshtml",
