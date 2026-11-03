@@ -1,0 +1,59 @@
+# Levanta SQL Server 2022 + la app con un solo comando:
+#   docker compose up --build
+# App:     http://localhost:8080
+# Swagger: http://localhost:8080/swagger
+
+services:
+  # Base de datos SQL Server 2022
+  db:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_SA_PASSWORD: "Persona_db2024!"   # solo para desarrollo
+    ports:
+      - "1433:1433"
+    volumes:
+      - sqldata:/var/opt/mssql
+    healthcheck:
+      test: ["CMD-SHELL", "/opt/mssql-tools18/bin/sqlcmd -S localhost -U sa -P \"$$MSSQL_SA_PASSWORD\" -C -Q \"SELECT 1\" || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 12
+      start_period: 20s
+
+  # Crea persona_db con personapi_db.sql (solo la primera vez)
+  db-init:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      MSSQL_SA_PASSWORD: "Persona_db2024!"
+    volumes:
+      - ./personapi_db.sql:/scripts/personapi_db.sql:ro
+    entrypoint: ["/bin/bash", "-c"]
+    command:
+      - |
+        SQLCMD="/opt/mssql-tools18/bin/sqlcmd -S db -U sa -P $$MSSQL_SA_PASSWORD -C"
+        if $$SQLCMD -h -1 -Q "SET NOCOUNT ON; IF DB_ID('persona_db') IS NULL PRINT 'crear'" | grep -q crear; then
+          echo "Creando persona_db..."
+          $$SQLCMD -i /scripts/personapi_db.sql
+        else
+          echo "persona_db ya existe"
+        fi
+        # Verifica que las tablas quedaron creadas
+        $$SQLCMD -b -Q "IF OBJECT_ID('persona_db.dbo.telefono') IS NULL RAISERROR('No se creo la base de datos', 16, 1)"
+
+  # Aplicación ASP.NET Core (MVC + API REST)
+  app:
+    build: ./personapi-dotnet/personapi-dotnet
+    depends_on:
+      db-init:
+        condition: service_completed_successfully
+    environment:
+      ConnectionStrings__PersonaDb: "Server=db;Database=persona_db;User Id=sa;Password=Persona_db2024!;TrustServerCertificate=True"
+    ports:
+      - "8080:8080"
+
+volumes:
+  sqldata:

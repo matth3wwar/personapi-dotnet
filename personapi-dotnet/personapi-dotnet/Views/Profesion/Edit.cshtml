@@ -1,14 +1,11 @@
-﻿@model IEnumerable<personapi_dotnet.Models.Entities.Profesion>
+﻿@model personapi_dotnet.Models.Entities.Profesion
 @{
-    ViewData["Title"] = "Profesiones";
+    ViewData["Title"] = "Editar profesión";
 }
-<h1>Profesiones</h1><p><a asp-action="Create" class="btn btn-primary">Registrar profesión</a></p>
-<table class="table table-striped">
-    <thead><tr><th>ID</th><th>Nombre</th><th>Descripción</th><th></th></tr></thead>
-    <tbody>
-        @foreach (var item in Model)
-        {
-            <tr><td>@item.Id</td><td>@item.Nom</td><td>@item.Des</td><td><a asp-action="Details" asp-route-id="@item.Id">Detalle</a> | <a asp-action="Edit" asp-route-id="@item.Id">Editar</a> | <a asp-action="Delete" asp-route-id="@item.Id">Eliminar</a></td></tr>
-        }
-    </tbody>
-</table>
+<h1>Editar profesión</h1>
+<form asp-action="Edit" asp-route-id="@Model.Id" method="post">
+    <input type="hidden" asp-for="Id" />
+    <partial name="_Form" model="Model" />
+    <button class="btn btn-primary" type="submit">Guardar cambios</button>
+    <a asp-action="Index" class="btn btn-secondary">Volver</a>
+</form>

@@ -1,6 +1,15 @@
 ﻿@model personapi_dotnet.Models.Entities.Telefono
 @{
     ViewData["Title"] = "Editar teléfono";
+    ViewData["EsEdicion"] = true;
 }
 <h1>Editar teléfono</h1>
-<form asp-action="Edit" asp-route-id="@Model.Num" method="post"><input type="hidden" asp-for="Num" /><partial name="_Form" model="Model" /><button class="btn btn-primary">Guardar cambios</button> <a asp-action="Index" class="btn btn-secondary">Volver</a></form>
+<form asp-action="Edit" asp-route-id="@Model.Num" method="post">
+    <input type="hidden" asp-for="Num" />
+    <dl class="row">
+        <dt class="col-sm-3">Número</dt><dd class="col-sm-9">@Model.Num</dd>
+    </dl>
+    <partial name="_Form" model="Model" />
+    <button class="btn btn-primary" type="submit">Guardar cambios</button>
+    <a asp-action="Index" class="btn btn-secondary">Volver</a>
+</form>

@@ -1,14 +1,27 @@
-﻿@model IEnumerable<personapi_dotnet.Models.Entities.Estudio>
+﻿@model personapi_dotnet.Models.Entities.Estudio
 @{
-    ViewData["Title"] = "Estudios";
+    ViewData["Title"] = "Editar estudio";
 }
-<h1>Estudios</h1><p><a asp-action="Create" class="btn btn-primary">Registrar estudio</a></p>
-<table class="table table-striped">
-    <thead><tr><th>Profesión (ID)</th><th>Persona (CC)</th><th>Fecha</th><th>Universidad</th><th></th></tr></thead>
-    <tbody>
-        @foreach (var item in Model)
-        {
-            <tr><td>@item.IdProf</td><td>@item.CcPer</td><td>@item.Fecha</td><td>@item.Univer</td><td><a asp-action="Details" asp-route-idProf="@item.IdProf" asp-route-ccPer="@item.CcPer">Detalle</a> | <a asp-action="Edit" asp-route-idProf="@item.IdProf" asp-route-ccPer="@item.CcPer">Editar</a> | <a asp-action="Delete" asp-route-idProf="@item.IdProf" asp-route-ccPer="@item.CcPer">Eliminar</a></td></tr>
-        }
-    </tbody>
-</table>
+<h1>Editar estudio</h1>
+<form asp-action="Edit" asp-route-idProf="@Model.IdProf" asp-route-ccPer="@Model.CcPer" method="post">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    @* La profesión y la persona son la clave, por eso no se pueden cambiar *@
+    <input type="hidden" asp-for="IdProf" />
+    <input type="hidden" asp-for="CcPer" />
+    <dl class="row">
+        <dt class="col-sm-3">Profesión (ID)</dt><dd class="col-sm-9">@Model.IdProf</dd>
+        <dt class="col-sm-3">Persona (CC)</dt><dd class="col-sm-9">@Model.CcPer</dd>
+    </dl>
+    <div class="mb-3">
+        <label asp-for="Fecha" class="form-label">Fecha</label>
+        <input asp-for="Fecha" type="date" class="form-control" />
+        <span asp-validation-for="Fecha" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Univer" class="form-label">Universidad</label>
+        <input asp-for="Univer" class="form-control" />
+        <span asp-validation-for="Univer" class="text-danger"></span>
+    </div>
+    <button class="btn btn-primary" type="submit">Guardar cambios</button>
+    <a asp-action="Index" class="btn btn-secondary">Volver</a>
+</form>

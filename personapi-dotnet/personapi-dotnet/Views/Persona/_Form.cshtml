@@ -1,9 +1,13 @@
 ﻿@model personapi_dotnet.Models.Entities.Persona
 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-<div class="mb-3"><label asp-for="Cc" class="form-label">Identificación</label>
-    <input asp-for="Cc" class="form-control" />
-    <span asp-validation-for="Cc" class="text-danger"></span>
+@* La identificación solo se escribe al crear; en edición no se puede cambiar *@
+@if (ViewData["EsEdicion"] == null)
+{
+    <div class="mb-3"><label asp-for="Cc" class="form-label">Identificación</label>
+        <input asp-for="Cc" inputmode="numeric" maxlength="15" class="form-control" />
+        <span asp-validation-for="Cc" class="text-danger"></span>
     </div>
+}
 <div class="mb-3"><label asp-for="Nombre" class="form-label"></label>
     <input asp-for="Nombre" class="form-control" />
     <span asp-validation-for="Nombre" class="text-danger"></span>
@@ -22,6 +26,6 @@
 </div>
 <div class="mb-3">
     <label asp-for="Edad" class="form-label"></label>
-    <input asp-for="Edad" type="number" class="form-control" />
+    <input asp-for="Edad" type="number" min="0" max="150" class="form-control" />
     <span asp-validation-for="Edad" class="text-danger"></span>
 </div>

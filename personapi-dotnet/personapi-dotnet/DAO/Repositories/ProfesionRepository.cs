@@ -37,11 +37,15 @@ namespace personapi_dotnet.DAO.Repositories
 
         public async Task Delete(int id)
         {
-            var persona = await GetById(id);
+            // Se cargan también sus estudios para borrarlos junto con la profesión
+            var profesion = await _context.Profesions
+                .Include(p => p.Estudios)
+                .FirstOrDefaultAsync(p => p.Id == id);
 
-            if (persona != null)
+            if (profesion != null)
             {
-                _context.Profesions.Remove(persona);
+                _context.Estudios.RemoveRange(profesion.Estudios);
+                _context.Profesions.Remove(profesion);
                 await _context.SaveChangesAsync();
             }
         }
